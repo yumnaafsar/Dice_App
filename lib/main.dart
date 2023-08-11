@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Color.fromARGB(255, 216, 27, 21),
         appBar: AppBar(
-          title: Text('Dicee'),
+          title: Center(child: Text('DICE APP', style: TextStyle(fontSize: 25, fontWeight:FontWeight.bold),)),
           backgroundColor: Colors.red,
         ),
         body: DicePage(),
